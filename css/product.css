@@ -1,0 +1,95 @@
+/*this is content begin*/
+.p_log{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 60px;
+}
+.P_E_log{
+    margin-top: 50px;
+    margin:10px 0;
+    text-align: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+.P_C_log{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    font-family: "SimSun", "ËÎÌו";
+    font-style: normal;
+    color: red;
+}
+/*log end*/
+/*centent begin*/
+.product{
+    width: 1050px;
+    margin: 0 auto;
+}
+.pro_top {
+    width: 100%;
+    height: 50px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.pro_top a{
+    padding:0 10px;
+}
+.pro_top.one{
+    color: red;
+}
+.pro_top a:hover{
+    color: red;
+}
+.pro_centent{
+    width: 1010px;
+    margin:0 auto;
+    margin-bottom: 100px;
+}
+.pro_centent li{
+    width: 250px;
+    height: 280px;
+    text-align: center;
+    position: relative;
+    float: left;
+    border: 2px solid black;
+    border-color: red;
+    margin-left: -2px;
+    margin-top: -2px;
+    overflow: hidden;
+}
+.pro_centent_1 p{
+    opacity: 0.5;
+    font-size: 15px;
+    margin-bottom:15px;
+}
+.h-1{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.h-1 a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -56px;
+    margin-left: -56px;
+    opacity: 0;
+}
+.h-1 .buy{
+    position: absolute;
+    right: -20px;
+    top: 60px;
+}
+.picture img{
+    width: 250px;
+    height: 280px;
+}

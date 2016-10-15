@@ -1,0 +1,372 @@
+/*∂˛Œ¨¬ÎB*/
+.erweima{
+    position: fixed;
+    top:30%;
+    z-Index:999;
+}
+/*∂˛Œ¨¬ÎE*/
+/*contact B*/
+.contact{
+    width: 380px;
+    padding-left:50px;
+    height:60px;
+    background: url(../images/bg_shadow05.jpg) no-repeat;
+    line-height:60px;
+    color:#fff;
+    top:-30px;
+    margin:0 auto 28px;
+    position: relative;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.contact p{
+    display:inline-block;
+    margin:0 10px;
+    float:left;
+}
+.contact img{
+    vertical-align:middle;
+    border:0;
+    padding:0;
+    margin:0;
+    outline-style:none;
+}
+
+
+/*icon B*/
+.lx{
+    display:block;
+    text-align: center;
+    padding-bottom:25px;
+    border-bottom:1px solid #ddd;
+    margin-bottom:20px;
+}
+h2{
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-weight:500;
+    color:inherit;
+}
+
+.lx p{
+    display:block;
+    margin:0 0 10px;
+    font-family:pinghei;
+    font-style:italic;
+    font-size:14px                                                                                                                                                                                            font-family:'pinghei'
+}
+.icon{
+    width: 986px;
+    margin:0 auto;
+    position: relative;
+}
+.con_T{
+    width: 59px;
+    margin:0 auto;
+}
+.intro{
+    margin:0 auto;
+    text-align:center;
+}
+.lianxi1{
+    position: relative;
+}
+.intro h2{
+    font-size:22px;
+    line-height:32px;
+    color:#000;
+    text-align:center;
+    margin-bottom:20px;
+}
+.lianxi2{
+    position: relative;
+}
+.intro h3{
+    font-weight: normal;
+    font-size:22px;
+    font-family:"Microsoft JhengHei", "microsoft Yahei","Arial";
+    line-height:32px;
+    color: #848484;
+
+}
+.lianxi3{
+    position: relative;
+}
+.lianxi4{
+    position: relative;
+}
+.intro p{
+    font-size: 14px;
+    line-height: 32px;
+    color: #505050;
+    text-align:center;
+    margin-bottom: 10px;
+    font-family:"Microsoft JhengHei", "microsoft Yahei","Arial";
+}
+.intro a:hover{
+    color: red;
+}
+.intro a{
+    display:inline-block;
+    padding:0 22px;
+    font-size: 12px;
+    line-height: 32px;
+    color: #6f6f6f;
+    background: url(../images/bg_sign16.jpg) no-repeat left 0;
+    font-family:"Microsoft JhengHei", "microsoft Yahei","Arial";
+}
+intro a.web{
+    background-position: left -32px;
+
+}
+/*icon E*/
+
+/* cont_Part B*/
+.cont_Part{
+    overflow: hidden;
+}
+.cont-part{
+    width: 100%;
+    margin: 25px 75px 0 0;
+
+}
+
+.cont_list{
+    width: 33.3%;
+    height: 170px;
+    float:left;
+    position: relative;
+}
+.cont_list img{
+    float:left;
+    margin-top:20px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+.cont_list p{
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #d82954;
+}
+.cont_list ul{
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.cont_list ul p{
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    color: #666;
+    float: none;
+    margin: 0;
+}
+
+/* cont_Part E*/
+
+/*bg B*/
+.con_bg{
+    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    background: url(../images/ditu_bg.jpg) no-repeat center center fixed;
+}
+.con_ditu_zi{
+    width: 550px;
+    padding-top: 10%;
+    text-align: center;
+    margin: 0 auto;
+    color: #ddd;
+}
+.con_ditu_zi a{
+    color: #d51746;
+    font-size: 16px;
+    line-height: 35px;
+    background-color: transparent;
+}
+.con_ditu_zi a:hover{
+    color: #ffffff;
+}
+.con_ditu_zi h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+/*bg E*/
+
+
+/*zhaopin B*/
+.zhaopinAll{
+    width: 100%;
+    background-color: #eeeeee;
+}
+.zhaopin{
+    width: 986px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title_honor {
+    width: 400px;
+    height: 58px;
+    font-size: 16px;
+    line-height: 58px;
+    color: #525252;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.row{
+    margin: 0 -15px 0;
+    width: 100%;
+    background-color: #eeeeee;
+}
+.zhappin p{
+    display: block;
+    margin:0 0 10px;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+.zhaop{
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+
+}
+.zhaop-con{
+    width: 1016px;
+    height: 485px;
+    overflow: hidden;
+    position: relative;
+}
+.zhaop-con ul{
+    position: absolute;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.zhaop-con ul li{
+    width: 1016px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+.zhaop-con ul li a{
+    display: block;
+    text-align: center;
+    color: #666;
+}
+.zhaop-con ul li img{
+    margin-top: 30px;
+}
+.zhaop-con ul li h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #d51746;
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 500;
+    display: block;
+}
+
+.prev-btn{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -52px;
+    cursor: pointer;
+}
+.next-btn{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -52px;
+    cursor: pointer;
+}
+/*zhaopin */
+/*¡Ù—‘ B*/
+.feedback{
+    width: 986px;
+    margin: 0 auto;
+    /*font-family: 'pingHei';*/
+    position: relative;
+}
+.feedback .title_honor{
+    font-size: 25px;
+}
+.title_xialine {
+    width: 156px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 4px;
+}
+.contact-form{
+    margin: 3em 0 0;
+    padding-bottom: 2em;
+    position: relative;
+}
+form{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.contact-form input[type="text"]{
+    display: inline-block;
+    border: 1.5px solid #CBCBCB;
+    width: 29%;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.5em;
+    font-family: inherit;
+    line-height: inherit;
+
+    font: inherit;
+}
+.contact-form textarea{
+    border: 1.5px solid #CBCBCB;
+    width: 100%;
+    display: block;
+    height: 150px;
+    outline: none;
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    resize: none;
+    padding: 10px 15px;
+    margin-bottom:1em;
+}
+input[type="submit"]{
+    cursor: pointer;
+    font-family: pinghei;
+    font-size: inherit;
+    line-height: inherit;
+    font: inherit;
+    color: inherit;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    padding: 1px 6px;
+    text-align: center;
+}
+/*¡Ù—‘ E*/

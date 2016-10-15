@@ -1,0 +1,486 @@
+
+/*extend*/
+.extend {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 8;
+    width: 50px;
+    height: 100px;
+}
+.extend .wx {
+    width: 20px;
+    height: 16px;
+    background-image: url("../images/wx.png");
+}
+.extend .wx img,
+.extend .wb img{
+    display: none;
+}
+.extend .wb {
+    width: 20px;
+    height: 16px;
+    background-image: url("../images/wb.png");
+    margin-top: 10px;
+}
+/*ab_banner  start*/
+.hjp_ab_banner {
+    height: 386px;
+    width: 100%;
+    /*background-color: yellow;*/
+}
+/*ab_banner  end*/
+/*common problem Start*/
+.hjp_common_problem {
+    height:186px;
+    border-bottom: 1px solid #ddd;
+    position:relative;
+}
+.hjp_sub_title {
+    height:60px;
+    width:380px;
+    position: absolute;
+    left: 38%;
+    margin: 0 auto;
+    margin-top: -30px;
+    z-index: 1;
+    background-image: url("../images/bg_shadow05.jpg");
+}
+.hjp_sub_title p {
+    display: inline-block;
+    font-weight:bold;
+    font-size:25px;
+    line-height:60px;
+    padding-left: 65px;
+    color: white;
+    float: left;
+}
+.hjp_sub_title img {
+    float: left;
+}
+.hjp_common_problem h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120px;
+    text-align: center;
+}
+.hjp_common_problem .CP {
+    text-align: center;
+    font-style: italic;
+}
+/*common problem End*/
+/*problem Start*/
+.hjp_problem {
+    height: 480px;
+}
+.hjp_problem .problems {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    color: black;
+}
+.problems h2 {
+    height: 40px;
+    font: 18px/40px "sunsim";
+    border-bottom: 2px solid black;
+}
+.problems .link b {
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    background: url("../images/faqdot.jpg") no-repeat;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.problems s {
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    background: url("../images/pro_down.png") no-repeat;
+    vertical-align: middle;
+    margin-left: 960px;
+    margin-top: -135px;
+    /*display: none;*/
+}
+.problems ul li {
+    height: 66px;
+    font:14px/66px "sunsim";
+    border-bottom: 1px solid #E1E1E1;
+}
+.problems .link {
+    text-align: center;
+    height: 66px;
+    font: 14px/66px "sunsim";
+}
+.linkBody0,
+.linkBody1,
+.linkBody2,
+.linkBody3 {
+    width: 960px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 38px;
+    border-bottom: 1px solid #ddd;
+    background-color: lightcyan;
+    display: none;
+}
+.problems .link a {
+    padding-right: 5px;
+    color: #337AB7;
+}
+/*problem End*/
+/*service Start*/
+.hjp_service {
+    height: 620px;
+    padding-top: 40px;
+    /*background-color: pink;*/
+}
+.hjp_service .service {
+    height: 90px;
+    width: 270px;
+    margin: 0 auto;
+
+}
+.hjp_service p {
+    display: inline-block;
+    font-weight:bold;
+    font-size:25px;
+    line-height:90px;
+    color: #525252;
+    float: left;
+}
+
+.hjp_service img {
+    float: left;
+    margin-top: 16px;
+}
+.experience {
+    height: 40px;
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+.experience h3 {
+    font: 20px/40px "sunsim";
+}
+.hjp_service .imgpic {
+    margin: 0 auto;
+    width:650px;
+    height:395px;
+}
+
+/*service End */
+/*range of service Start*/
+.service{
+    margin: 0 auto;
+}
+.hjp_rangeof_service {
+    height: 510px;
+    padding: 120px 70px 100px;
+    background-color: #D82954;
+    width: 85%;
+}
+/*time���*/
+.hjp_rangeof_service .time {
+    width: 254px;
+    height: 505px;
+    border: 1px solid white;
+    float: left;
+    padding:0 18px;
+}
+.time h3 {
+    height: 70px;
+    font:18px/70px "sunsim";
+    color: white;
+}
+.time .logo1 {
+    height: 100px;
+}
+.time .content p {
+    line-height: 25px;
+    color: white;
+}
+/*price���*/
+.hjp_rangeof_service .price {
+    width: 254px;
+    height: 505px;
+    border: 1px solid white;
+    float: left;
+    padding:0 18px;
+}
+.price h3 {
+    height: 70px;
+    font:18px/70px "sunsim";
+    color: white;
+}
+.price .logo1 {
+    height: 100px;
+}
+.price .content p {
+    line-height: 25px;
+    color: white;
+}
+/*cost���*/
+.hjp_rangeof_service .cost {
+    width: 254px;
+    height: 505px;
+    border: 1px solid white;
+    float: left;
+    padding:0 18px;
+}
+.cost h3 {
+    height: 70px;
+    font:18px/70px "sunsim";
+    color: white;
+}
+.cost .logo1 {
+    height: 100px;
+}
+.cost .content p {
+    line-height: 25px;
+    color: white;
+}
+/*business���*/
+.hjp_rangeof_service {
+    margin: 0 auto;
+}
+.hjp_rangeof_service .business {
+    width: 254px;
+    height: 505px;
+    border: 1px solid white;
+    float: left;
+    padding:0 18px;
+
+}
+.business h3 {
+    height: 70px;
+    font:18px/70px "sunsim";
+    color: white;
+}
+.business .logo1 {
+    height: 100px;
+}
+.business .content p {
+    line-height: 25px;
+    color: white;
+}
+/*range of service End*/
+/*download Start*/
+.hjp_download {
+    padding: 0 85px;
+    height: 790px;
+}
+.download {
+    height: 263px;
+    width: 270px;
+    margin: 0 auto;
+
+}
+.hjp_download .product  {
+    margin: 0 auto;
+}
+.hjp_download p {
+    display: inline-block;
+    font-weight:bold;
+    font-size:25px;
+    line-height:263px;
+    color: #525252;
+    float: left;
+}
+.hjp_download .download-pic {
+    float: left;
+    margin-top: 100px;
+}
+/*video���*/
+.product {
+    width: 1179px;
+    height: 450px;
+}
+.product .video {
+    width: 358px;
+    height: 418px;
+    border: 1px solid gray;
+    float: left;
+    overflow: hidden;
+}
+.link1,.link2,.link3 {
+    overflow: hidden;
+    display: block;
+    height:258px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product .video-pic {
+    height: 258px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.video h3 {
+    height: 35px;
+    font: 15px/35px "sunsim";
+    padding-left: 10px;
+}
+.video-story p {
+    line-height: 22px;
+    padding:0 10px;
+    font: 12px/22px "sunsim";
+}
+
+.video .more .link,
+.pictures .more .link,
+.instruction .more .link{
+    width: 150px;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+    display: inline-block;
+}
+.video .more .link b,
+.pictures .more .link b ,
+.instruction .more .link b{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    background-image: url("../images/ser_more.png");
+    margin-left: 20px;
+}
+/*pictures���*/
+.product .pictures {
+    float: left;
+    width: 358px;
+    height: 418px;
+    margin:0px 30px;
+    border: 1px solid gray;
+}
+.product .pictures-pic {
+    height: 258px;
+    vertical-align: middle;
+    position: relative;
+}
+.pictures h3 {
+    height: 35px;
+    font: 15px/35px "sunsim";
+    padding-left: 10px;
+}
+.pictures-story p {
+    line-height: 22px;
+    padding:0 10px;
+    font: 12px/22px "sunsim";
+}
+
+/*instructionģ��*/
+.product .instruction {
+    float: left;
+    width: 358px;
+    height: 418px;
+    border: 1px solid gray;
+}
+.product .instruction-pic {
+    height: 258px;
+    vertical-align: middle;
+    position: relative;
+}
+.instruction h3 {
+    height: 35px;
+    font: 15px/35px "sunsim";
+    padding-left: 10px;
+}
+.instruction-story p {
+    line-height: 22px;
+    padding:0 10px;
+    font: 12px/22px "sunsim";
+}
+
+/*download End*/
+/*旋转木马*/
+.xz {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.xz ul {
+    height: 600px;
+    width: 99999px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+.xz ul li {
+    float: left;
+    height: 600px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*.xz ul li img{*/
+    /*width: 100%;*/
+/*}*/
+.icon {
+    width: 60px;
+    height: 45px;
+    position: absolute;
+}
+.xz ol {
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    margin-left: -64px;
+    text-align: center;
+}
+.xz ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+.xz ol li.current{
+    background-color: red;
+}
+
+.all {
+    position: relative;
+    margin-bottom: 15px;
+}
+#arr {
+    display: none;
+}
+#arr span {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:30px;
+    top:50%;
+    margin-top: -30px;
+    background-color: #ccc;
+    opacity: 0.4;
+    cursor: pointer;
+    text-align: center;
+    font:bold 30px/50px "黑体";
+}
+#arr #arrRight {
+    right:30px;
+    left: auto;
+}
+/*旋转木马*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/

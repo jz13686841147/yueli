@@ -1,0 +1,344 @@
+/*this is ab_banner start*/
+.ab_banner{
+    width: 100%;
+}
+.ab_banner img{
+    width: 100%;
+}
+/*this is ab_banner end*/
+
+/*this is content start*/
+.about-fi{
+    width: 986px;
+    margin:0 auto;
+}
+.about-fi .inside{
+    padding:0 15px;
+}
+.about-fi .inside-top{
+    width: 100%;
+    height: 235px;
+    position:relative;
+    top:-95px;
+    padding-bottom: 20px;
+    margin-bottom: -48px;
+    border-bottom:1px solid #e8e8e8;
+    overflow:hidden;
+}
+.about-fi .inside-top-title{
+    float: left;
+    width: 210px;
+    padding-top: 138px;
+    position:relative;
+    opacity:0;
+    left:-100px;
+}
+.about-fi .inside-top-title p{
+    width: 210px;
+    font-size: 26px;
+    line-height: 40px;
+    float: left;
+    padding-bottom: 30px;
+    background:url(../images/bg_name01.png) no-repeat bottom left;
+}
+.about-fi .inside-top-img {
+    width: 328px;
+    height: 236px;
+    float: right;
+    position:relative;
+    opacity:0;
+    right:-100px;
+}
+.about-fi .inside .intro{
+    position:relative;
+    top:100px;
+}
+.about-fi .inside .intro p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Microsoft JhengHei", "Microsoft YaHei", "Arial";
+    margin-bottom:20px;
+    text-align:left;
+    text-indent:2em;
+}
+.about-fi .ab_box{
+    margin-top: 80px;
+    position:relative;
+}
+.about-fi .ab_box .ab_wrap{
+    width: 960px;
+    overflow:hidden;
+}
+.about-fi .ab_box ul{
+    width:2400px;
+    margin-left: 0px;
+    overflow:hidden;
+}
+.about-fi .ab_box li{
+    float: left;
+    margin-right:5px;
+}
+.about-fi .ab_box li img{
+    width: 235px;
+}
+.about-fi .inside .ab_arrow a,.about-strong-bottom .strong-arrow a{
+    position:absolute;
+    top:50%;
+    left:-50px;
+    margin-top: -15px;
+}
+.about-fi .inside .ab_arrow #next{
+     right: -50px;
+     left:auto;
+ }
+/*¼ýÍ·*/
+.inside-arrow {
+    height: 52px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top:50px;
+    position: relative;
+}
+.inside-arrow .sign {
+    width: 52px;
+    height: 52px;
+    border:1px solid #666;
+    border-radius:50%;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -26px;
+    cursor: pointer;
+}
+.inside-arrow .arrow {
+    width: 21px;
+    height: 11px;
+    position: absolute;
+    left: 16px;
+    top: 24px;
+    overflow: hidden;
+}
+.inside-arrow .arrow img {
+    position: absolute;
+    left: 0;
+    top: -22px;
+}
+.cul_bg{
+    width: 100%;
+    height:450px;
+    background: url(../images/culture_bg.jpg) center no-repeat fixed;
+    background-size:100%;
+}
+
+.about-si {
+    width: 986px;
+    margin:0 auto;
+}
+.about-si .inside .title{
+    width: 350px;
+    margin:0 auto;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    line-height: 58px;
+}
+.about-si .inside .title p{
+    padding-left: 60px;
+}
+.about-si .inside .line{
+    width: 45px;
+    margin:0 auto;
+    height: 4px;
+    background-color: #ccc;
+    margin-top: 50px;
+}
+.about-si .inside .list-cul{
+    padding-top: 50px;
+    position:relative;
+    top:90px;
+    opacity:0;
+}
+
+.about-si .inside .list-cul li{
+    float: left;
+    width: 156px;
+    margin-right: 35px;
+    text-align:center;
+    line-height: 24px;
+}
+.about-si .inside .list-cul h2{
+    color:#d51746;
+    font-size: 22px;
+}
+.about-si .inside .list-cul img{
+    border:3px solid #f0f0f0;
+    margin:0 15px 30px;
+}
+.about-si .inside .list-cul i{
+   font-family: Arial;
+   color:#a7a7a7;
+}
+.about-si .inside .list-cul p{
+    font-family: "Microsoft JhengHei", "Microsoft YaHei", "Arial";
+    margin-top: 10px;
+}
+.about-si .inside .tab-btn{
+    height: 35px;
+    line-height: 35px;
+    padding:50px 80px;
+}
+.about-si .inside .tab-btn a{
+    display: inline-block;
+    width: 238px;
+    height: 34px;
+    background-color: #707070;
+    color:#fff;
+    float: left;
+    text-align:center;
+    margin-right: 15px;
+    position:relative;
+    top:90px;
+    opacity:0;
+}
+.about-si .inside .tab-btn a:hover{
+    background-color: #d82c56;
+}
+.about-strong{
+    width: 100%;
+    height: 700px;
+    margin:0 auto;
+    background:url(../images/shili_bg.jpg) no-repeat left top;
+}
+.about-strong-top{
+    width: 80%;
+    padding:120px 0 0 200px;
+}
+.about-strong-top p{
+    font-size: 26px;
+    line-height: 40px;
+    background: url(../images/bg_name011.png) no-repeat left bottom;
+    padding-bottom: 30px;
+}
+.about-strong-top span{
+    font-size: 16px;
+    line-height: 40px;
+}
+.about-strong-top p a,.about-strong-top span a{
+    color:#fff;
+}
+.about-strong-top p a:hover,.about-strong-top span a:hover {
+    color: #d82954;
+}
+.about-strong-bottom{
+    width: 52%;
+    margin-top: 120px;
+    height: 140px;
+    padding:20px 0 20px 350px;
+    background-color: #d82954;
+    position:relative;
+    left:-100px;
+    opacity:0;
+}
+.about-strong-bottom .strong-box{
+    position:relative;
+    width: 660px;
+    height: 140px;
+}
+.about-strong .scroll-warp{
+    overflow:hidden;
+}
+.about-strong-bottom ul{
+    width: 1540px;
+}
+.about-strong-bottom ul li{
+    float: left;
+    margin-right: 20px;
+}
+.about-strong-bottom li img{
+    width: 200px;
+    height: 133px;
+}
+.about-strong-bottom .strong-arrow #st-next{
+    right: -30px;
+    left:auto;
+}
+
+.about-honor{
+    width: 100%;
+    margin:10px auto;
+}
+.about-honor .honor-content{
+    width: 986px;
+    margin:0 auto;
+}
+.about-honor .honor-top{
+    width: 350px;
+    
+    margin:0 auto;
+}
+.about-honor .honor-top-title{
+    padding-left: 55px;
+    font-size: 25px;
+    line-height: 58px;
+    font-weight: bold;
+}
+.about-honor .honor-top .line{
+    width: 45px;
+    margin:0 auto;
+    height: 4px;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-honor .honor-p{
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 25px;
+    margin-bottom: 50px;
+    position:relative;
+    top:80px;
+    font-family: "Microsoft JhengHei", "Microsoft YaHei", "Arial";
+}
+/*this is about-scroll start*/
+.about-scroll .wrap{
+    width:1000px;
+    margin:10px auto;
+}
+.about-scroll .slide {
+    height:300px;
+    position: relative;
+}
+.about-scroll .slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.about-scroll .slide li img{
+    width:100%;
+}
+.about-scroll .scrollbox{
+    width: 1040px;
+    height: 100px;
+    margin:0 auto;
+}
+.about-scroll .scrollbox .scroll-container{
+    height: 15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    position:relative;
+    cursor:pointer;
+}
+.scroll-container .scroller{
+    width: 100px;
+    height: 15px;
+    border-radius:10px;
+    background-color: #d82c56;
+    position:absolute;
+    cursor:move;
+    left:100px;
+}
+/*this is about-scroll end*/
+
+/*this is content end*/
+

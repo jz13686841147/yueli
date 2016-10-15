@@ -1,0 +1,72 @@
+/*foot begin*/
+.foot{
+    width: 100%;
+    position: relative;
+    background: #3d3d3d;
+}
+.wx_wb{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.wx_wb p{
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+    line-height: 40px;
+}
+.wx_wb_big{
+    position: absolute;
+    right: 200px;
+    bottom: -20px;
+    display: none;
+}
+.foot .go_top{
+    position: absolute;
+    left: 50%;
+    top: -24px;
+}
+.foot_centnt{
+    margin:0 auto;
+    padding: 0px 10%;
+    padding-top: 46px;
+    height: 200px;
+}
+.foot_centnt ol{
+    float: left;
+    width: 16%;
+}
+.foot_centnt ol dt{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    color: white;
+    width: 80%;
+    border-bottom: 5px solid red;
+    margin-bottom: 20px;
+}
+.foot_centnt ol dd a{
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+}
+.foot_centnt ol dd a:hover{
+    color: red;
+}
+
+/*foot end*/
+/*foot_botton begin*/
+.foot_botton{
+    padding-top: 10px;
+    border-top: 1px solid red;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+.foot_botton span{
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+}
